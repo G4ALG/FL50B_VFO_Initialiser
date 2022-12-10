@@ -32,7 +32,7 @@ void setup()
     Serial.println(ee_len);
 
     Serial.print("Band[] length =");
-    Serial.println(sizeof(BandParameters) * NUMBER_OF_BANDS);
+    //Serial.println(sizeof(BandParameters) * NUMBER_OF_BANDS);
 
     // clear the EEPROM contents
     for (int j = 0; j < ee_len; j++)
