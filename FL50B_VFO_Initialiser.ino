@@ -17,7 +17,7 @@ typedef struct
 } BandParameters;
 
 BandParameters Band[NUMBER_OF_BANDS]; // array of band parameters per band
-byte BandIndex;                       // index into Band array (representing the current band)
+byte BandIndexCurrent;                // index into Band array (representing the current band)
 
 int t = 0, second_counter = 0;
 
